@@ -1,0 +1,67 @@
+body{
+
+ background-image: url("http://www.lovethesepics.com/wp-content/uploads/2013/06/Inside-the-bamboo-forest-of-Kyoto-Japan.jpg");
+ display: table-cell;
+ vertical-align: middle;
+}
+
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+input[type=text] {
+    background-color: #3CBC8D;
+    color: white;
+}
+
+img{
+  height: 300px;
+  weight: 300px;
+}
+
+li {
+  font-family: verdana;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: green;
+    color: white;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+h1{
+  color: Blue;
+  /* background-color: orange; */
+  border: 3px dashed black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+
+
+
+
+#graph1,
+#graph2{
+  width: 700px;
+  height: 300px;
+  border: 2px double tomato;
+}
